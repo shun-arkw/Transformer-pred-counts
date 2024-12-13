@@ -1,0 +1,16 @@
+degree_sampling: uniform
+density: 1
+field: GF7
+gb_type: shape
+max_degree_F: 5 # F = U * P * A * G　における多項式行列U，Aの成分のmax_degree
+max_degree_G: 10 # Gに含まれる多項式のmax_degree
+max_num_terms_F: 5 # F = U * P * A * G　における多項式行列U，Aの成分のmax_num_terms
+max_num_terms_G: 10 # Gに含まれる多項式のmax_num_terms
+max_size_F: 4 # 多項式系Fに存在する多項式の数(生成元の数)．num_var以上の必要がある
+num_duplicants: 1
+num_samples_test: 10000
+num_samples_train: 100000 # 1000000
+num_var: 3
+term_sampling: uniform
+
+
